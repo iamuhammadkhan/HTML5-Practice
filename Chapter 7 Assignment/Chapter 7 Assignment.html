@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Forms Practice </title>
+</head>
+<body>
+<form>
+<p>Username:
+<input type="text" name="username" size="15" maxlength="30" /> </p>
+<p>Password:
+<input type="password" name="password" size="15" maxlength="30" /> </p>
+<label for="username">Date of birth:</label>
+<input type="date" name="dob" />
+<p>Website URL:
+<input type="text" name="weburl" size="15" maxlength="50" /> </p>
+<p>Address:
+<input type="text" name="address" size="15" maxlength="50" /> </p>
+<p>City:
+<select name="city">
+<option value="karachi">Karachi</option>
+<option value="lahore">Lahore</option>
+<option value="islamabad">Islamabad</option>
+</select></p>
+<p>Zip Code:
+<input type="text" name="zipcode" size="15" maxlength="30" /> </p>
+<p>State:
+<input type="text" name="state" size="15" maxlength="50" /> </p>
+<p>Please select you Magazine</p>
+<select name="magazine" size="4" multiple="multiple">
+<option value="newsweek">Newsweek</option>
+<option value="time">Time</option>
+<option value="fortune">Fortune</option>
+<option value="tvguide">TV Guide</option>
+</select>
+<fieldset>
+<legend>Contact details</legend>
+<label>Email:<br />
+<input type="text" name="email" /></label><br />
+<label>Mobile:<br />
+<input type="text" name="mobile" /></label><br />
+<label>Telephone:<br />
+<input type="text" name="telephone" /></label>
+</fieldset>
+<p> Additional Comments </p>
+<textarea name="comments" cols="50" rows="8"></textarea>
+<p>Upload your profile picture:
+<input type="file" name="profile-picture" /><br /></p>
+<input type="submit" value="Upload" />
+<p> Subscription:
+<input type="radio" name="genre" value="1 Year" checked="checked" /> 1 Year
+<input type="radio" name="genre" value="2 Years" /> 2 Years
+<input type="radio" name="genre" value="3 Years" /> 3 Years
+</p>
+<p> How you heard of us?
+<input type="checkbox" name="service" value="google" checked="checked" /> Google
+<input type="checkbox" name="service" value="facebook" /> Facebook
+<input type="checkbox" name="service" value="others" /> Others
+</p>
+<p>Email Address:</p>
+<input type="text" name="email" />
+<input type="checkbox" name="service" value="google" checked="checked" /> Yes! Put me on the email list!
+<br/><br/>
+<input type="image" src="download.jpg" width="180" height="40" />
+</form>
+</body>
+</html>
